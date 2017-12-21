@@ -1,3 +1,24 @@
+body{
+background-image:url(../img/phone.jpg);
+
+}
+
+
+body, h1 {
+margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    transition: .8s;
+}
+
+section{
+	width: 100%;
+	overflow: hidden;
+
+}
+
 span{
 	font-size: 300px;
 }
@@ -12,4 +33,41 @@ h2{
 	left: -50px;
 	height: 300px;
 	width: 2000px;
+}
+.cube{
+	position: absolute;
+	top:1000px;
+	left: 800px;
+	background: rgba(239, 151, 50, 0.9);
+	border:2px black; 
+	width: 500px;
+	height: 700px;
+	font-size:35px; 
+	border-style:dashed;
+}
+.cube p {
+	opacity:1;
+}
+
+.cube img{
+	position: absolute;
+	left: 70px;
+	width: 350px;
+	height: 250px;
+	border:1px black;
+	border-style: dashed;
+	float: right;
+    width: 25%  ;
+}
+
+.comp{
+	position: absolute;
+	top:1800px;
+	left: 700px;
+	background: rgba(239, 151, 50, 0.9);
+	border:2px black; 
+	width: 670px;
+	height: 710px;
+	font-size:35px; 
+	border-style:dashed;
 }
